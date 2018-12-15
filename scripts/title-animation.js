@@ -1,10 +1,10 @@
 function titlebar(pos)
 {
   const speed = 500;
-  const msg1 = "(✿ ◕‿◕ )__\\";
-  const msg2 = "(✿ ◕‿◕ )__/`    ❇   ✴ ❁";
-  const msg3 = "(✿ ◕‿◕ )__\\    ❇   ✴ ❁";
-  const msg4 = "(✿ ◕‿◕ )__/`✽ ✧ ❇ ♥ ✴ ❁";
+  const msg1 = "(✿ ^‿^ )|";
+  const msg2 = "(✿ ^‿^ )ノ   ❇   ✴ ❁";
+  const msg3 = "(✿ ^‿^ )|    ❇   ✴ ❁";
+  const msg4 = "(✿ ^‿^ )ノ✽ ✧ ❇ ♥ ✴ ❁";
   let msg = "";
   if(pos == 0) {
     msg = msg1;
