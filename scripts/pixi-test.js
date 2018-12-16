@@ -105,7 +105,7 @@ let bunny = new PIXI.Sprite(
 };
 
 const drawCheckerboard = () => {
-  for (var i = app.stage.children.length - 1; i >= 0; i--) {  app.stage.removeChild(app.stage.children[i]);};
+  for (let i = app.stage.children.length - 1; i >= 0; i--) {  app.stage.removeChild(app.stage.children[i]);};
 
   const allColors = [0x4905af, 0xe55812, 0xd10404, 0xc3ff2b,
     0xeaceff, 0x6bc8ff, 0x0117ff, 0x414142];
@@ -132,8 +132,8 @@ const drawCheckerboard = () => {
     x = 0;
     y = 10 * i;
   }
-  var tex = graphics.generateTexture();
-  var sprite = new PIXI.Sprite(tex);
+  let tex = graphics.generateTexture();
+  let sprite = new PIXI.Sprite(tex);
 
   sprite.x = window.innerWidth - 500;
   sprite.y = 0;
